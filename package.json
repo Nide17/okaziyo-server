@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "description": "okaziyo is a web application that helps people to sell their and buy new and used things that should be used by others.",
   "main": "server.js",
-  "repository": "https://github.com/Nide17/okaziyo.git",
+  "repository": "https://github.com/Nide17/okaziyo-server.git",
   "author": "Nide17 <nidedrogba@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js --exec babel-node --presets babel-preset-env",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
