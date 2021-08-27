@@ -1,7 +1,7 @@
 {
   "name": "okaziyo-server",
   "version": "1.0.0",
-  "description": "okaziyo is a web application that helps people to sell their and buy new and used things that should be used by others.",
+  "description": "okaziyo is a web application that helps people to sell their and buy new and used things that should be used by others. this a server part",
   "main": "server.js",
   "repository": "https://github.com/Nide17/okaziyo-server.git",
   "author": "Nide17 <nidedrogba@gmail.com>",
