@@ -11,7 +11,7 @@ const cors = require('cors')
 const app = express();
 
 // Express has bodyParser
-app.use(cors({origin: '*'}))
+app.use(cors({ origin: '*' }))
 app.use(express.json());
 
 // Configure the AWS region of the target bucket.
